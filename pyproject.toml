@@ -2,6 +2,7 @@
 name = "BinaLand"
 version = "1.0.0"
 description = "RestFul Api"
+authors = ["Haziq Musa <haziq.musa02@gmail.com>"]
 
 [tool.poetry.dependencies]
 flask = "3.0.3"
