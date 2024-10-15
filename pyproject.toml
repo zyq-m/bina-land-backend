@@ -1,21 +1,17 @@
-[project]
+[tool.poetry]
 name = "BinaLand"
 version = "1.0.0"
 description = "RestFul Api"
-dependencies = [
-    "flask",
-    "Flask-SQLAlchemy",
-    "mysqlclient",
-    "flask-bcrypt",
-    "flask-jwt-extended",
-    "flask-cors",
-    "flask-marshmallow",
-    "marshmallow-sqlalchemy",
-    "tensorflow",
-    "sklearn",
-    "numpy"
-]
 
-[build-system]
-requires = ["flit_core<4"]
-build-backend = "flit_core.buildapi"
+[tool.poetry.dependencies]
+flask = "3.0.3"
+Flask-SQLAlchemy = "3.1.1"
+mysqlclient = "2.2.4"
+flask-bcrypt = "1.0.1"
+flask-jwt-extended = "4.6.0"
+flask-cors = "4.0.1"
+flask-marshmallow = "1.2.1"
+marshmallow-sqlalchemy = "1.1.0"
+tensorflow = "2.17.0"
+scikit-learn = "1.5.2"
+numpy"
