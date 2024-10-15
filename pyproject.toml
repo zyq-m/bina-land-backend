@@ -5,7 +5,7 @@ description = "RestFul Api"
 authors = ["Haziq Musa <haziq.musa02@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.9,<4"
 flask = "3.0.3"
 Flask-SQLAlchemy = "3.1.1"
 mysqlclient = "2.2.4"
